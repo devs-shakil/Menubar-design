@@ -1,0 +1,35 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.menu{
+	margin-top:10px;
+	margin-left:15px;
+}
+.menu ul {
+	
+}
+.menu ul li{
+	float:left;
+	padding:20px;
+	list-style:none;
+	background:blue;
+	border-right:1px solid #395382;
+	border-left:1px solid #1a376b;
+	
+	
+	
+}
+.menu ul li a{
+	text-decoration:none;
+	font-size:30px;
+	color:white;
+	font-family:sans-serif;
+	font-style:bold;
+	font-weight:bold;
+}
+.menu ul li:hover{
+	background:#767f8e;
+	transition-duration:0.5s;
+    box-shadow:0px 3px 6px;
+}
